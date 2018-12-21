@@ -1,6 +1,6 @@
 import { ConfigActions, EConfigActions } from './../actions/config.actions';
 import { initialConfigState, IConfigState } from './../state/config.state';
-export const ConfigReducers = (
+export const configReducers = (
   state = initialConfigState,
   action: ConfigActions
 ) => {
